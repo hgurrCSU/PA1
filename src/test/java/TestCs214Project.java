@@ -29,7 +29,6 @@ public class TestCs214Project {
         String outputFile = "testOutput1.csv";
 
         Files.write(Paths.get(inputFile), Arrays.asList(
-            "song,user,rating",
             "song1,Sam,1",
             "song1,Ana,5",
             "song1,Leo,5",
@@ -65,7 +64,6 @@ public class TestCs214Project {
         String outputFile = "testOutput2.csv";
 
         Files.write(Paths.get(inputFile), Arrays.asList(
-            "song,user,rating",
             "Bohemian Rhapsody,Sam,4",
             "Sweet Home Alabama,Ana,4",
             "All Star,Leo,4",

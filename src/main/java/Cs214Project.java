@@ -20,9 +20,6 @@ public class Cs214Project {
              CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT)) {
 
             for(CSVRecord record : csvParser) {
-                if(record.getRecordNumber() == 1) {
-                    continue;
-                }
 
                 String song = record.get(0);
                 int rating = Integer.parseInt(record.get(2));
